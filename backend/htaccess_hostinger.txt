@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # 1. EXCEPCIÓN: Permitir HTTP solo para proxy.php
+    # Si la petición es para proxy.php, detener el procesamiento de reglas (no redirigir)
+    RewriteRule ^proxy\.php$ - [L]
+
+    # 2. FORZAR HTTPS (Para todo lo demás)
+    # Si no es HTTPS, redirigir a HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # 3. REGLAS DE REACT (SPA)
+    # Si el archivo/carpeta existe, servirlo. Si no, mandar a index.html
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>

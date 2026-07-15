@@ -1,0 +1,170 @@
+/* ===== TEST COMPONENT (DARK MODE) ===== */
+.test-panel {
+    background: #1e293b;
+    /* Slate 800 */
+    padding: 1.5rem;
+    border-radius: 16px;
+    border: 1px solid #334155;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    color: #f8fafc;
+    margin-top: 2rem;
+}
+
+.test-panel h3 {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #60a5fa;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* ===== FORM STYLES ===== */
+.test-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.test-form .form-group label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #94a3b8;
+    margin-bottom: 0.5rem;
+}
+
+.test-form select {
+    width: 100%;
+    padding: 0.75rem;
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #f8fafc;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.test-form select:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
+}
+
+.test-form small {
+    display: block;
+    margin-top: 0.5rem;
+    color: #64748b;
+    font-size: 0.8rem;
+}
+
+/* ===== CUCHILLAS CHECKBOXES ===== */
+.cuchillas-test {
+    display: flex;
+    gap: 1rem;
+    background: #0f172a;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+.cuchillas-test label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: #f8fafc !important;
+    margin: 0 !important;
+}
+
+.cuchillas-test input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #60a5fa;
+}
+
+/* ===== STATUS INDICATOR ===== */
+.test-status {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    background: #0f172a;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+.test-status span {
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+.test-status span.green {
+    color: #22c55e;
+}
+
+.test-status span.yellow {
+    color: #eab308;
+}
+
+.test-status span.orange {
+    color: #f97316;
+}
+
+.test-status span.red {
+    color: #ef4444;
+}
+
+/* ===== BUTTON ===== */
+.test-button {
+    width: 100%;
+    padding: 0.875rem;
+    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+.test-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(139, 92, 246, 0.5);
+}
+
+.test-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #334155;
+    box-shadow: none;
+}
+
+/* ===== INSTRUCTIONS ===== */
+.test-instructions {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(96, 165, 250, 0.05);
+    border-radius: 8px;
+    border: 1px dashed rgba(96, 165, 250, 0.3);
+}
+
+.test-instructions h4 {
+    margin: 0 0 0.5rem 0;
+    color: #60a5fa;
+    font-size: 0.9rem;
+}
+
+.test-instructions ol {
+    margin: 0;
+    padding-left: 1.5rem;
+    color: #94a3b8;
+    font-size: 0.85rem;
+}
+
+.test-instructions li {
+    margin-bottom: 0.25rem;
+}

@@ -1,0 +1,156 @@
+/* ===== DASHBOARD PAGE (DARK MODE) ===== */
+.dashboard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #0f172a;
+    overflow: hidden;
+}
+
+/* ===== DASHBOARD HEADER ===== */
+.dashboard-header {
+    background: #1e293b;
+    padding: 0 2rem;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-bottom: 1px solid #334155;
+    flex-shrink: 0;
+}
+
+.dashboard-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard-title h1 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.dashboard-stats {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-top: 0.25rem;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 600;
+}
+
+/* ===== DASHBOARD CONTENT ===== */
+.dashboard-content {
+    flex: 1;
+    display: flex;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    overflow-y: auto;
+    /* Enable scroll for dashboard content */
+    position: relative;
+}
+
+/* ===== MAP SECTION ===== */
+.map-section {
+    flex: 1;
+    background: #1e293b;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.panels-section::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.panels-section::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 10px;
+}
+
+.panels-section::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .dashboard-content {
+        flex-direction: column;
+        padding: 1rem;
+        /* Allow content to scroll if it exceeds screen */
+        overflow-y: auto;
+    }
+
+    /* Map gets fixed minimum height on mobile */
+    .map-section {
+        flex: 0 0 50vh;
+        /* Takes 50% of viewport height */
+        min-height: 300px;
+        order: 1;
+        /* Ensure map is first */
+    }
+
+    /* Panels section takes the rest or scrolls */
+    .panels-section {
+        width: 100%;
+        flex: 1;
+        /* Allow it to grow */
+        height: auto;
+        min-height: 400px;
+        /* Minimum height for content */
+        overflow-y: visible;
+        /* Scroll handled by dashboard-content */
+        order: 2;
+    }
+
+    /* Header adjustments */
+    .dashboard-header {
+        height: auto;
+        min-height: 70px;
+        padding: 0.5rem 1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .dashboard-title {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .dashboard-title h1 {
+        font-size: 1.1rem;
+    }
+
+    .dashboard-stats {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* Ensure search bar fits */
+    .search-container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Small phones adjustment */
+@media (max-width: 480px) {
+    .map-section {
+        flex: 0 0 45vh;
+    }
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "H1761874720292",
+    "type": "triple_created",
+    "tripleId": "TD1761874720274",
+    "chipId": "DEV001",
+    "chipNumber": "CHIP001",
+    "subestacion": "Subestación de prueba",
+    "status": "green",
+    "timestamp": "2025-10-31T01:38:40.274Z",
+    "message": "Triple disparo TD1761874720274 - Estado: 3 Cuchillas Activas"
+  }
+]

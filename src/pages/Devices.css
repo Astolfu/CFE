@@ -1,0 +1,103 @@
+/* ===== DEVICES PAGE (DARK MODE) ===== */
+.devices-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #0f172a;
+    color: #f8fafc;
+    overflow: hidden;
+}
+
+/* ===== HEADER ===== */
+.page-header {
+    background: #1e293b;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    height: 80px;
+    border-bottom: 1px solid #334155;
+    flex-shrink: 0;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-stats {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 600;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.page-stats span {
+    background: #0f172a;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #334155;
+}
+
+/* ===== MANAGEMENT SECTIONS ===== */
+.management-sections {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Custom Scrollbar */
+.management-sections::-webkit-scrollbar {
+    width: 8px;
+}
+
+.management-sections::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+.management-sections::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+}
+
+.management-sections::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+.management-section {
+    background: #1e293b;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #334155;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .page-header {
+        height: auto;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .management-sections {
+        padding: 1rem;
+    }
+
+    .management-section {
+        padding: 1rem;
+    }
+}

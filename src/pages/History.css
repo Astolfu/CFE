@@ -1,0 +1,328 @@
+/* ===== HISTORY PAGE (DARK MODE) ===== */
+.history-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #0f172a;
+    color: #f8fafc;
+    overflow-y: auto;
+    /* Full page scroll enabled */
+}
+
+/* ===== HEADER ===== */
+.page-header {
+    background: #1e293b;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background: #0f172a;
+    flex-shrink: 0;
+}
+
+.filters-section h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+.filters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.filter-group label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.filter-group input,
+.filter-group select {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #f8fafc;
+    padding: 0.6rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    outline: none;
+    width: 100%;
+}
+
+.filter-group input:focus,
+.filter-group select:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.1);
+}
+
+.filter-group input[type="date"] {
+    color-scheme: dark;
+}
+
+.filter-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #334155;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #334155;
+    color: #94a3b8;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #f8fafc;
+}
+
+.btn-primary {
+    background: #60a5fa;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.btn-primary:hover {
+    background: #3b82f6;
+}
+
+/* ===== SUMMARY CARDS ===== */
+.history-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background: #0f172a;
+    flex-shrink: 0;
+}
+
+.summary-card {
+    background: #1e293b;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #334155;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: transform 0.2s ease;
+}
+
+.summary-card:hover {
+    transform: translateY(-3px);
+    border-color: #475569;
+}
+
+.summary-card h4 {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+.summary-count {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f8fafc;
+}
+
+.summary-count.critical {
+    color: #ef4444;
+}
+
+/* ===== TABLE SECTION ===== */
+.history-table-container {
+    /* Removed overflow: auto and flex: 1 to allow full page scroll */
+    padding: 0 2rem 2rem;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.5rem;
+}
+
+.history-table th {
+    text-align: left;
+    padding: 1rem;
+    color: #94a3b8;
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: sticky;
+    top: 0;
+    background: #0f172a;
+    z-index: 1;
+}
+
+.history-table tr {
+    background: #1e293b;
+    transition: all 0.2s ease;
+}
+
+.history-table tbody tr:hover {
+    transform: scale(1.01);
+    background: #334155;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.history-table td {
+    padding: 1rem;
+    border-top: 1px solid #334155;
+    border-bottom: 1px solid #334155;
+    color: #f8fafc;
+    vertical-align: middle;
+}
+
+.history-table td:first-child {
+    border-left: 1px solid #334155;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.history-table td:last-child {
+    border-right: 1px solid #334155;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* ===== TABLE CELLS ===== */
+.event-id {
+    font-family: monospace;
+    color: #94a3b8;
+}
+
+.event-type {
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.triple-id {
+    color: #60a5fa;
+    font-weight: 600;
+}
+
+.chip-code {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.geo-coords {
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: #94a3b8;
+}
+
+.timestamp {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.no-data {
+    color: #64748b;
+    font-style: italic;
+}
+
+/* ===== SCROLLBAR ===== */
+.history-page::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.history-page::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+.history-page::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+}
+
+.history-page::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* ===== EMPTY STATE ===== */
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: #94a3b8;
+}
+
+.empty-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .history-summary {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .filters-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .history-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .filters-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-actions {
+        flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+    }
+
+    .history-table {
+        display: block;
+        overflow-x: auto;
+    }
+}

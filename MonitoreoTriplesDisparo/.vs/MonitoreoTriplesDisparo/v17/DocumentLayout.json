@@ -1,0 +1,576 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\components\\deviceform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\components\\deviceform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\routes\\devicesroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\routes\\devicesroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\routes\\notificationsroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\routes\\notificationsroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\routes\\historyroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\routes\\historyroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\pages\\devices.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\pages\\devices.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\services\\whatsappservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\services\\whatsappservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\services\\whatsappservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\services\\whatsappservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\routes\\whatsapproutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\routes\\whatsapproutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\routes\\esp32routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\routes\\esp32routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\routes\\triplesroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\routes\\triplesroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\pages\\history.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\pages\\history.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\pages\\contacts.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\pages\\contacts.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\pages\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\pages\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\components\\searchbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\components\\searchbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\components\\testcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\components\\testcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\components\\statuspanel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\components\\statuspanel.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\components\\tripledisparoform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\components\\tripledisparoform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\scripts\\initdatabase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\scripts\\initdatabase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\services\\databaseservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\services\\databaseservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\routes\\contactsroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\routes\\contactsroutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\backend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\backend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\pages\\notifications.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\pages\\notifications.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\pages\\history.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\pages\\history.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|c:\\users\\usuario\\source\\repos\\monitoreotriplesdisparo\\monitoreotriplesdisparo\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84E48681-3955-43A0-86FE-88BE87691E04}|MonitoreoTriplesDisparo\\monitoreotriplesdisparo.esproj|solutionrelative:monitoreotriplesdisparo\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a8466fe-5a05-4f81-ad45-7d7c1316817e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "notificationsRoutes.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\notificationsRoutes.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\routes\\notificationsRoutes.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\notificationsRoutes.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\routes\\notificationsRoutes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-20T23:16:27.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "historyRoutes.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\historyRoutes.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\routes\\historyRoutes.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\historyRoutes.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\routes\\historyRoutes.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-20T23:15:59.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "devicesRoutes.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\devicesRoutes.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\routes\\devicesRoutes.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\devicesRoutes.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\routes\\devicesRoutes.js",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAmwKkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-31T02:46:54.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\server.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\server.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\server.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\server.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T21:41:16.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeviceForm.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\DeviceForm.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\components\\DeviceForm.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\DeviceForm.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\components\\DeviceForm.jsx",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAUwM4BAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:22:19.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\App.css",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\App.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\App.css",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\App.css",
+              "ViewState": "AgIAAPIVAAAAAAAAAAAwwBsWAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-23T22:29:41.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\App.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\App.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\App.jsx",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAUwAIBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:09:53.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "whatsappService.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\services\\whatsappService.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\services\\whatsappService.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\services\\whatsappService.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\services\\whatsappService.js",
+              "ViewState": "AgIAALAAAAAAAAAAAAAkwNwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T22:51:54.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "whatsappService.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\services\\whatsappService.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\services\\whatsappService.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\services\\whatsappService.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\services\\whatsappService.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-23T22:40:20.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Devices.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Devices.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\pages\\Devices.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Devices.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\pages\\Devices.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:29:18.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "whatsappRoutes.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\whatsappRoutes.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\routes\\whatsappRoutes.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\whatsappRoutes.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\routes\\whatsappRoutes.js",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwJkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T23:14:39.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "esp32Routes.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\esp32Routes.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\routes\\esp32Routes.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\esp32Routes.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\routes\\esp32Routes.js",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAkwP4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T21:40:50.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\services\\api.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\services\\api.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\services\\api.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\services\\api.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T21:56:38.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "triplesRoutes.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\triplesRoutes.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\routes\\triplesRoutes.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\triplesRoutes.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\routes\\triplesRoutes.js",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-31T02:47:25.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "History.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\History.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\pages\\History.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\History.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\pages\\History.jsx",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAswHMBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:37:20.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contacts.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Contacts.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\pages\\Contacts.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Contacts.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\pages\\Contacts.jsx",
+              "ViewState": "AgIAANwAAAAAAAAAAAAswBsBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:36:58.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\pages\\Dashboard.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Dashboard.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\pages\\Dashboard.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:26:24.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TestComponent.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\TestComponent.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\components\\TestComponent.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\TestComponent.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\components\\TestComponent.jsx",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAwwNIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:30:29.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StatusPanel.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\StatusPanel.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\components\\StatusPanel.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\StatusPanel.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\components\\StatusPanel.jsx",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswGcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:26:57.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SearchBar.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\SearchBar.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\components\\SearchBar.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\SearchBar.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\components\\SearchBar.jsx",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAswPYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:26:39.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MapComponent.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\MapComponent.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\components\\MapComponent.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\MapComponent.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\components\\MapComponent.jsx",
+              "ViewState": "AgIAAJIBAAAAAAAAAAAswLkBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:22:00.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TripleDisparoForm.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\TripleDisparoForm.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\components\\TripleDisparoForm.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\components\\TripleDisparoForm.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\components\\TripleDisparoForm.jsx",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAswPUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:22:33.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\main.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\main.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-31T03:00:09.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\.env",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\.env",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\.env",
+              "RelativeToolTip": "monitoreotriplesdisparo\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-24T20:50:56.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "initDatabase.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\scripts\\initDatabase.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\scripts\\initDatabase.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\scripts\\initDatabase.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\scripts\\initDatabase.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-31T02:55:55.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "databaseService.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\services\\databaseService.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\services\\databaseService.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\services\\databaseService.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\services\\databaseService.js",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAswJAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-31T02:54:57.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\services\\api.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\services\\api.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\services\\api.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\services\\api.js",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAswJgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-23T22:22:48.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "contactsRoutes.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\contactsRoutes.js",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\routes\\contactsRoutes.js",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\routes\\contactsRoutes.js",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\routes\\contactsRoutes.js",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswFcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-31T02:47:47.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\.env",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\.env",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\.env",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-29T22:50:16.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\package.json",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\backend\\package.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\backend\\package.json",
+              "RelativeToolTip": "monitoreotriplesdisparo\\backend\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T21:58:01.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Notifications.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Notifications.jsx",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\pages\\Notifications.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\Notifications.jsx",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\pages\\Notifications.jsx",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAswJEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-23T22:36:36.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "History.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\History.css",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\pages\\History.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\pages\\History.css",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\pages\\History.css",
+              "ViewState": "AgIAAAgHAAAAAAAAAAAYwCoHAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-24T20:34:56.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\index.css",
+              "RelativeDocumentMoniker": "monitoreotriplesdisparo\\src\\index.css",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\MonitoreoTriplesDisparo\\monitoreotriplesdisparo\\src\\index.css",
+              "RelativeToolTip": "monitoreotriplesdisparo\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-25T00:04:20.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
