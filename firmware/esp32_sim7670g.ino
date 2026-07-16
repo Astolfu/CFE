@@ -10,8 +10,9 @@
 // IMPORTANTE: Cambia esto si usas Telcel ("internet.itelcel.com") o Movistar ("internet.movistar.mx")
 const char* apn = "modem.nextel.com.mx"; 
 
-// URL del servidor Render
-const char* serverUrl = "https://backendtp-264r.onrender.com/api/esp32/sensor-data";
+// URL del servidor (Railway) - HTTPS directo, sin proxy intermedio en Hostinger
+const char* serverUrl = "https://cfe-production.up.railway.app/api/esp32/sensor-data";
+const char* pingUrl = "https://cfe-production.up.railway.app/api/esp32/ping";
 
 // ---------------- CONFIGURACIÓN DE SENSORES ----------------
 // Sensor 1 (Cuchilla 1)
@@ -141,8 +142,9 @@ void initSIM7670G() {
   sendATCommand("AT+CPSI?");  // Tipo de red (LTE/GSM) y banda
   sendATCommand("AT+COPS?");  // Operador conectado
 
-  // Configuración SSL (DESACTIVADA para HTTP plano)
-  // sendATCommand("AT+CSSLCFG=\"sslversion\",0,0"); 
+  // Configuración SSL para HTTPS directo a Railway (ya no se usa proxy HTTP en Hostinger)
+  sendATCommand("AT+CSSLCFG=\"sslversion\",0,3", 2000, true);  // 3 = TLS 1.2
+  sendATCommand("AT+CSSLCFG=\"authmode\",0,0", 2000, true);    // 0 = no verificar certificado del servidor
   
   // 5. Activar datos
   Serial.println("📶 Activando datos móviles...");
@@ -170,7 +172,7 @@ int readDistance(int trigPin, int echoPin) {
 
 void enviarDatos(int estado1, int estado2, int estado3) {
   Serial.println("\n--------------------------------");
-  Serial.println("📤 Iniciando Transacción HTTP (vía Proxy)");
+  Serial.println("📤 Iniciando Transacción HTTPS (directo a Railway)");
   Serial.println("--------------------------------");
 
   String jsonPayload = "{";
@@ -186,11 +188,9 @@ void enviarDatos(int estado1, int estado2, int estado3) {
   // 1. Inicializar HTTP
   sendATCommand("AT+HTTPINIT", 1000, true); 
   
-  // URL HTTP -> PROXY EN HOSTINGER (SIN HTTPS)
-  // IMPORTANTE: El .htaccess debe permitir esto
-  String proxyUrl = "http://informaticavalladolid.com/proxy.php"; 
-  
-  sendATCommand("AT+HTTPPARA=\"URL\",\"" + proxyUrl + "\"", 1000, true);
+  // URL HTTPS directa a Railway (sin proxy intermedio en Hostinger)
+  sendATCommand("AT+HTTPPARA=\"URL\",\"" + String(serverUrl) + "\"", 1000, true);
+  sendATCommand("AT+HTTPSSL=1", 1000, true);
   sendATCommand("AT+HTTPPARA=\"CONTENT\",\"application/json\"", 1000, true);
   
   // 2. Enviar Datos
@@ -293,7 +293,7 @@ void enviarDatos(int estado1, int estado2, int estado3) {
 
 void enviarPing() {
   Serial.println("\n--------------------------------");
-  Serial.println("📤 Iniciando Ping HTTP (vía Proxy)");
+  Serial.println("📤 Iniciando Ping HTTPS (directo a Railway)");
   Serial.println("--------------------------------");
 
   String jsonPayload = "{\"chipNumber\":\"" + CHIP_NUMBER + "\"}";
@@ -302,10 +302,9 @@ void enviarPing() {
   // 1. Inicializar HTTP
   sendATCommand("AT+HTTPINIT", 1000, true); 
   
-  // URL HTTP del Proxy para ping
-  String proxyUrl = "http://informaticavalladolid.com/proxy.php?endpoint=ping"; 
-  
-  sendATCommand("AT+HTTPPARA=\"URL\",\"" + proxyUrl + "\"", 1000, true);
+  // URL HTTPS directa a Railway para ping (sin proxy intermedio en Hostinger)
+  sendATCommand("AT+HTTPPARA=\"URL\",\"" + String(pingUrl) + "\"", 1000, true);
+  sendATCommand("AT+HTTPSSL=1", 1000, true);
   sendATCommand("AT+HTTPPARA=\"CONTENT\",\"application/json\"", 1000, true);
   
   // 2. Enviar Datos
