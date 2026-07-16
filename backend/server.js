@@ -88,7 +88,7 @@ const https = require('https');
 const KEEP_ALIVE_INTERVAL = 10 * 60 * 1000; // 10 minutos
 
 function keepAlive() {
-    const backendUrl = process.env.VITE_BACKEND_URL || 'https://cfe-production.up.railway.app';
+    let backendUrl = process.env.VITE_BACKEND_URL || 'https://cfe-production.up.railway.app';
 
     // Solo activar si estamos en producción (URL remota)
     if (backendUrl.includes('localhost') || backendUrl.includes('127.0.0.1')) {
@@ -96,15 +96,24 @@ function keepAlive() {
         return;
     }
 
-    https.get(`${backendUrl}/health`, (resp) => {
-        if (resp.statusCode === 200) {
-            console.log(`💓 Keep-Alive Ping exitoso: ${new Date().toISOString()}`);
-        } else {
-            console.warn(`⚠️ Keep-Alive Ping falló con código: ${resp.statusCode}`);
-        }
-    }).on("error", (err) => {
-        console.error("❌ Error en Keep-Alive:", err.message);
-    });
+    // Tolerar que la variable de entorno venga sin protocolo (https.get exige uno)
+    if (!/^https?:\/\//i.test(backendUrl)) {
+        backendUrl = `https://${backendUrl}`;
+    }
+
+    try {
+        https.get(`${backendUrl}/health`, (resp) => {
+            if (resp.statusCode === 200) {
+                console.log(`💓 Keep-Alive Ping exitoso: ${new Date().toISOString()}`);
+            } else {
+                console.warn(`⚠️ Keep-Alive Ping falló con código: ${resp.statusCode}`);
+            }
+        }).on("error", (err) => {
+            console.error("❌ Error en Keep-Alive:", err.message);
+        });
+    } catch (err) {
+        console.error("❌ Error en Keep-Alive (URL inválida):", err.message);
+    }
 }
 
 // Iniciar el intervalo
