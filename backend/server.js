@@ -88,7 +88,7 @@ const https = require('https');
 const KEEP_ALIVE_INTERVAL = 10 * 60 * 1000; // 10 minutos
 
 function keepAlive() {
-    const backendUrl = process.env.VITE_BACKEND_URL || 'https://backendtp-264r.onrender.com';
+    const backendUrl = process.env.VITE_BACKEND_URL || 'https://cfe-production.up.railway.app';
 
     // Solo activar si estamos en producción (URL remota)
     if (backendUrl.includes('localhost') || backendUrl.includes('127.0.0.1')) {

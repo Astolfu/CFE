@@ -1,6 +1,6 @@
 <?php
 // proxy.php
-// Este archivo recibe datos por HTTP plano del ESP32 y los reenvía por HTTPS seguro a Render.
+// Este archivo recibe datos por HTTP plano del ESP32 y los reenvía por HTTPS seguro a Railway.
 
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
@@ -17,12 +17,12 @@ if (empty($json)) {
     exit();
 }
 
-// 2. Definir destino (Backend en Render)
+// 2. Definir destino (Backend en Railway)
 $endpoint = isset($_GET['endpoint']) ? $_GET['endpoint'] : 'sensor-data';
 if ($endpoint === 'ping') {
-    $url = 'https://backendtp-264r.onrender.com/api/esp32/ping';
+    $url = 'https://cfe-production.up.railway.app/api/esp32/ping';
 } else {
-    $url = 'https://backendtp-264r.onrender.com/api/esp32/sensor-data';
+    $url = 'https://cfe-production.up.railway.app/api/esp32/sensor-data';
 }
 
 // 3. Configurar cURL para hacer el puente
@@ -42,7 +42,7 @@ if (curl_errno($ch)) {
     http_response_code(500);
     echo json_encode(["error" => "Proxy cURL Error: " . $error_msg]);
 } else {
-    // 5. Devolver la respuesta de Render al ESP32
+    // 5. Devolver la respuesta de Railway al ESP32
     http_response_code($httpCode);
     echo $response;
 }
