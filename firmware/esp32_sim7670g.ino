@@ -8,7 +8,7 @@
 
 // Configuración de APN
 // IMPORTANTE: Cambia esto si usas Telcel ("internet.itelcel.com") o Movistar ("internet.movistar.mx")
-const char* apn = "modem.nextel.com.mx"; 
+const char* apn = "internet.itelcel.com";
 
 // URL del servidor (Railway) - HTTPS directo, sin proxy intermedio en Hostinger
 const char* serverUrl = "https://cfe-production.up.railway.app/api/esp32/sensor-data";
@@ -34,8 +34,8 @@ const int DISTANCE_THRESHOLD_CM = 30;
 #define BOOT_BUTTON_PIN 0
 
 // Identificadores del Chip
-const String CHIP_NUMBER = "CHIPVALLA";
-const String TRIPLE_ID = "TDCHIPVALLA_1763769173506";
+const String CHIP_NUMBER = "CHIP001";
+const String TRIPLE_ID = "TD1";
 
 // Estado anterior
 int estadoAnteriorCuchilla1 = -1;
