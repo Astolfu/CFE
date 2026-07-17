@@ -108,16 +108,37 @@ String sendATCommand(String command, int timeout = 2000, boolean debug = true) {
 
 void initSIM7670G() {
   Serial.println("🔧 Configurando SIM7670G...");
-  
-  sendATCommand("AT");
-  sendATCommand("ATE0"); 
+
+  // Esperar a que el módulo responda al comando AT básico.
+  // El SIM7670G puede tardar varios segundos en arrancar; reintentamos
+  // en vez de asumir que ya está listo tras 1 segundo.
+  Serial.println("⏳ Esperando respuesta del módulo SIM7670G...");
+  bool moduloListo = false;
+  for (int intento = 0; intento < 15 && !moduloListo; intento++) {
+    String resp = sendATCommand("AT", 1000, false);
+    if (resp.indexOf("OK") != -1) {
+      moduloListo = true;
+      Serial.println("✅ Módulo SIM7670G responde");
+    } else {
+      Serial.print(".");
+      delay(1000);
+    }
+  }
+
+  if (!moduloListo) {
+    Serial.println("\n❌ Error: El módulo SIM7670G no responde a comandos AT.");
+    Serial.println("   Verifica: cableado TX/RX (cruzados), GND común, y alimentación del módulo.");
+    while(1);
+  }
+
+  sendATCommand("ATE0");
   sendATCommand("AT+CMEE=2"); // Habilitar errores verbose globalmente
-  
+
   // 2. Verificar SIM
   String cpin = sendATCommand("AT+CPIN?", 3000);
   if (cpin.indexOf("READY") == -1) {
     Serial.println("❌ Error: Tarjeta SIM no detectada o con PIN");
-    while(1); 
+    while(1);
   }
   
   // 3. Esperar registro (soporta estado 6)
@@ -423,8 +444,9 @@ void loop() {
   int dist3 = readDistance(TRIG_PIN_3, ECHO_PIN_3);
 
   if (dist1 < 0 || dist2 < 0 || dist3 < 0) {
+    Serial.println("⚠️ Lectura inválida, ciclo descartado -> dist1:" + String(dist1) + " dist2:" + String(dist2) + " dist3:" + String(dist3));
     delay(50);
-    return; 
+    return;
   }
 
   int estadoActualCuchilla1 = (dist1 > 0 && dist1 < DISTANCE_THRESHOLD_CM) ? 1 : 0;
